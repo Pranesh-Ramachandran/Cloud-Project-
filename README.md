@@ -88,3 +88,4 @@ Test endpoints:
 - **Dynamic Port Injection**: Application respects `PORT` environment variable via `server.port=${PORT:8080}`, complying with Cloud Run runtime contract.
 - **Multi-Stage Dockerfile**: Uses Temurin JRE runtime in final stage to eliminate build tools and compilers from production runtime.
 - **Automated Quality Gates**: The CI/CD pipeline runs unit tests before building or pushing the container image.
+

@@ -6,7 +6,7 @@ on:
       - main
 
 env:
-  PROJECT_ID: lively-nimbus-512912-t1
+  PROJECT_ID: project-194b450f-e708-4801-860
   REGION: us-central1
   GAR_LOCATION: us-central1
   REPOSITORY: cloud-devops-repo
@@ -69,3 +69,4 @@ jobs:
           echo "🚀 Deployed successfully to Cloud Run!"
           echo "URL: ${{ steps.deploy.outputs.url }}"
           echo "=========================================="
+
